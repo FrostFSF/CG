@@ -29,7 +29,7 @@ class Complex
 		Complex temp;
 		temp.real = real+c.real;
 		temp.imaginary = imaginary+c.imaginary;
-		return imaginary;
+		return temp;
 	}
 	Complex operator * (Complex &c)
 	{
