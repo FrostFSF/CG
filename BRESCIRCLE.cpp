@@ -25,11 +25,11 @@ void bres_circle(int xc,int yc,int radius)    //xc,yc is center of the circle wh
     pitpixel(xc-y,yc+x, WHITE);
     if(d < 0)
     {
-        d = d+4*dx+6;
+        d = d+4*x+6;
     }
     else
     {
-      d = d+4*(dx-dy)+10;
+      d = d+4*(x-y)+10;
       y = y-1;
     }
     x = x+1;
